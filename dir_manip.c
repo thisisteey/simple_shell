@@ -108,7 +108,7 @@ void cd_dash(sh_data *dsh)
 }
 
 /**
- * cd_tilde - changes to home directory 
+ * cd_tilde - changes to home directory
  * @dsh: pointer to the data structure
  * Return: void
  */
