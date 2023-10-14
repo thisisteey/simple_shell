@@ -58,7 +58,7 @@ void nxt_list(sep_t **sep_list, cmdln_t **cmdln_list, sh_data *dsh)
 	{
 		if (dsh->state == 0)
 		{
-			if (sep->separator == '&' | sep->separator == ';')
+			if (sep->separator == '&' || sep->separator == ';')
 				loop = 0;
 			if (sep->separator == '|')
 				cmdln = cmdln->nxt, sep = sep->nxt;
