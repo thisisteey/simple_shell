@@ -67,7 +67,7 @@ int get_error(sh_data *dsh, int err_val)
 				error = sh_exit_err(dsh);
 			else if (str_cmp("cd", dsh->tokenargs[0]) == 0)
 				error = cd_cmd_err(dsh);
-				break;
+			break;
 	}
 	if (error)
 	{
